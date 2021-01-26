@@ -39,7 +39,7 @@
     "type": "xpath"
   },
   {
-    "key": "sayfaKontrol",
+    "key": "popUpKontrol",
     "value": "//input[@id='tcno']",
     "type": "xpath"
   },
