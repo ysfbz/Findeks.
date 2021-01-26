@@ -1,0 +1,29 @@
+#Teb ana sayfasini yukle
+*Ana sayfaya git
+*"1" sn. bekle
+
+#Ihtiyac kredilerine git
+*"krediler" tikla
+*"2" sn. bekle
+*"ihtiyacKredileri" tikla
+*"1" sn. bekle
+*"detayliBilgi" tikla
+*"1" sn. bekle
+
+#Findeks nedire git
+*"tablo" kontrol et
+*"1" sn. bekle
+*"findeksNedir" tikla
+*"1" sn. bekle
+*"notOgren" tikla
+*"1" sn. bekle
+*yeni pencereye kay
+
+#Bireysel findeks raporu al
+*"bireysel" kontrol et
+*"bireysel" tikla
+*"3" sn. bekle
+*"premium satin al" kontrol et
+*"2" sn. bekle
+*"premium satin al" tikla
+*"3" sn. bekle

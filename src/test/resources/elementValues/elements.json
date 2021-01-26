@@ -1,0 +1,43 @@
+[{
+  "key": "krediler",
+  "value": "//li[@class='sub i8714 ss2']",
+  "type": "xpath"
+},
+  {
+    "key": "ihtiyacKredileri",
+    "value": "//li[@class='I10686 sev4 icr']",
+    "type": "xpath"
+  },
+  {
+    "key": "detayliBilgi",
+    "value": "//a[@class='btnDetayliBilgi']",
+    "type": "xpath"
+  },
+  {
+    "key": "tablo",
+    "value": "//table[@class='tabTemplate']",
+    "type": "xpath"
+  },
+  {
+    "key": "findeksNedir",
+    "value": "Findeks Risk Raporu",
+    "type": "linkText"
+  },
+  {
+    "key": "notOgren",
+    "value": "Findeks notunuzu öğrenmek için tıklayınız.",
+    "type": "linkText"
+  },
+  {
+    "key": "bireysel",
+    "value": "//a[@href='https://www.findeks.com/paketler#bireysel']",
+    "type": "xpath"
+  },
+  {
+    "key": "premium satin al",
+    "value": "//a[@class='btn btn--default btn--rounded modal-trigger modal-purchase-link']",
+    "type": "xpath"
+  }
+]
+
+
