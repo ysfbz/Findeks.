@@ -20,13 +20,13 @@
   },
   {
     "key": "findeksNedir",
-    "value": "Findeks Risk Raporu",
-    "type": "linkText"
+    "value": "//a[contains(text(), 'Findeks Risk Raporu')]",
+    "type": "xpath"
   },
   {
     "key": "notOgren",
-    "value": "Findeks notunuzu öğrenmek için tıklayınız.",
-    "type": "linkText"
+    "value": "//a[contains(text(), 'Findeks notunuzu öğrenmek için tıklayınız.')]",
+    "type": "xpath"
   },
   {
     "key": "bireysel",
@@ -39,5 +39,3 @@
     "type": "xpath"
   }
 ]
-
-
