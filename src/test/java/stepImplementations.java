@@ -20,12 +20,6 @@ public class stepImplementations extends baseTest {
         System.out.println(element + " tiklandi.");
     }
 
-    @Step("<hoverElement> uzerinde bekle")
-    public void hoverStep(String hoverElement) {
-        hoverElement(hoverElement);
-        System.out.println(hoverElement + " uzerinde beklendi.");
-    }
-
     @Step("<checkElement> kontrol et")
     public void checkStep(String element) {
         try {

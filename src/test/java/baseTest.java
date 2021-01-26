@@ -26,7 +26,6 @@ public class baseTest {
         driver.manage().window().maximize();
     }
 
-
     static WebDriver driver;
     static Actions action;
 
@@ -46,32 +45,8 @@ public class baseTest {
         return webElement;
     }
 
-    public List<WebElement> findElements(String key){
-        ElementInfo elementInfo = StoreHelper.INSTANCE.findElementInfoByKey(key);
-        By infoParam = ElementHelper.getElementInfoToBy(elementInfo);
-        return driver.findElements(infoParam);
-    }
-
-    public void hoverElement(String by) {
-        action.moveToElement(findElement(by)).build().perform();
-    }
-
-    public void assertControl(String assertName, String expectedName){
-        String assertName1 = findElement(assertName).getText();
-        System.out.println(assertName1);
-        Assert.assertEquals(assertName1,expectedName);
-    }
-
-    public  void sendkeysElement(String by,String text){
-        findElement(by).sendKeys(text);
-    }
-
     public void clickElement(String by){
         findElement(by).click();
-    }
-
-    public void clickListElement(String by, int index){
-        findElements(by).get(index).click();
     }
 
     public void openNewTab(){
@@ -86,6 +61,4 @@ public class baseTest {
         driver.quit();
         System.out.println("Senaryo Tamamlandi.");
     }
-
-
 }
