@@ -1,7 +1,7 @@
 import com.thoughtworks.gauge.Step;
 import org.junit.Assert;
 
-public class stepImplementations extends baseTest {
+public class StepImplementations extends BaseTest {
     @Step("Ana sayfaya git")
     public void anaSayfa() {
         getUrl();
