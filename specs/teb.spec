@@ -1,6 +1,7 @@
-Findeks kontrolu
+Findeks Kontrolu
 =====================
-     
+
+
 Findeks raporu
 ----------------
 *Teb ana sayfasini yukle
