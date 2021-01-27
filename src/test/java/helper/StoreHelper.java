@@ -59,7 +59,6 @@ public enum StoreHelper {
     elementMapList.forEach((key, value) -> logger.info("Key = {} value = {}", key, value));
   }
 
-
   public ElementInfo findElementInfoByKey(String key) {
     return (ElementInfo) elementMapList.get(key);
   }
@@ -71,5 +70,4 @@ public enum StoreHelper {
   public String getValue(String key) {
     return elementMapList.get(key).toString();
   }
-
 }

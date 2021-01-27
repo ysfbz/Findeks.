@@ -1,4 +1,4 @@
-Findeks raporu alma senaryolari
+Findeks kontrolu
 =====================
      
 Findeks raporu
