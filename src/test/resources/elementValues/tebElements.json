@@ -34,16 +34,6 @@
     "type": "xpath"
   },
   {
-    "key": "premium satin al",
-    "value": "//a[@class='btn btn--default btn--rounded modal-trigger modal-purchase-link']",
-    "type": "xpath"
-  },
-  {
-    "key": "popUpKontrol",
-    "value": "//input[@id='tcno']",
-    "type": "xpath"
-  },
-  {
     "key": "logoKontrol",
     "value": "//a[@id='logo']",
     "type": "xpath"
